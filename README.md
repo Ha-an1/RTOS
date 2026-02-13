@@ -82,7 +82,7 @@ The Events Log below the chart shows mutex operations, priority inheritance trig
 5. **Transitive PI** — Chain: High → Low → VeryLow through nested mutexes
 6. **RMS** — Auto-assigns priorities by period, prints schedulability analysis
 7. **Semaphore** — Producer-consumer with bounded buffer
-8. **Deadline Miss** — TaskHog delays TaskTight past its deadline
+8. **Deadline Miss** — TaskLow delays TaskHigh past its deadline
 
 ## File Structure
 

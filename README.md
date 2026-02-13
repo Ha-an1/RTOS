@@ -38,15 +38,15 @@ make
 |---|---|
 | `1` | Basic Priority Scheduling — 3 tasks in strict order |
 | `2` | Preemption — high-priority arrival interrupts low |
-| `3` | **Priority Inversion WITH PI** ★ the killer demo |
-| `4` | Priority Inversion WITHOUT PI — comparison showing the problem |
+| `3` | Priority Inversion **WITH** PI |
+| `4` | Priority Inversion **WITHOUT** PI |
 | `5` | Transitive Priority Inheritance — 3-task chain |
 | `6` | Rate Monotonic Scheduling + schedulability analysis |
 | `7` | Semaphore Producer-Consumer |
 | `8` | Deadline Miss Detection |
 | `all` | Run everything |
 
-**Quick demo** (the priority inheritance showcase):
+**Quick demo**:
 ```bash
 ./rtos_scheduler 3
 ```

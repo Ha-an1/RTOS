@@ -2,7 +2,6 @@
 
 A priority-based preemptive Real-Time Operating System scheduler built from scratch in C, featuring **priority inheritance protocol** (the fix for the Mars Pathfinder 1997 priority inversion bug) and comprehensive **ASCII timeline visualization**.
 
-> **Interview-ready** for embedded systems roles at Qualcomm, Apple, Tesla, and other firmware/RTOS positions.
 
 ## Features
 
